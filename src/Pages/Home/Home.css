@@ -1,0 +1,150 @@
+.Head-container {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin: 6px 0px;
+}
+
+.side-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 15px;
+    width: 100%;
+}
+
+.Content h4 {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    margin: 2px 0px;
+}
+
+.Content h5 {
+    color: #7D7D7D;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    margin: 2px 0px;
+
+}
+
+.image-section {
+    width: 100%;
+}
+
+.image-container {
+    justify-content: space-between;
+}
+
+.homeCard {
+    position: relative;
+    height: 240px;
+}
+
+.homeCard-bg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+.homeCard-bg img {
+    width: 100%;
+}
+
+.homeCardContent {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+}
+
+.homeCardContent h6 {
+    font-size: 20px;
+    color: #FFF;
+    font-weight: 500;
+}
+
+.homeCardContent h3 {
+    color: #FFF;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.homeCardContent button {
+    display: inline-flex;
+    padding: 12px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding-top: 10px;
+    border-radius: 12px;
+    background: rgba(255, 255, 255, 0.20);
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+.custom-area h5 {
+    color: #322D2D;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    padding: 10px;
+}
+.box-section{
+        background-color: #f8f8f8;
+        padding: 10px 15px;
+        border: 1px solid #dedede;
+        border-radius: 18px;
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        margin-bottom: 18px;
+    
+}
+.box-section .main {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding-left: 10px;
+}
+.text-content h5 {
+    margin: 0px;
+    color: #322D2D;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.text-content h3 {
+    margin: 0px;
+    color: #7D7D7D;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+
+}
+
+.payment h4 {
+    color:#322D2D;
+    font-size: 15px;
+    font-weight: 700;
+}

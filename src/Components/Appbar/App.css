@@ -1,0 +1,36 @@
+.Head-container {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin: 6px 0px;
+}
+
+.side-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 15px;
+    width: 100%;
+}
+
+.Content h4 {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.Content h5 {
+    color: #322D2D;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+
+}
+
+.image-section {
+    width: 100%;
+}
+
+.image-container {
+    justify-content: space-between;
+}

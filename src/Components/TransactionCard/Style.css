@@ -1,0 +1,90 @@
+.Card-section {
+     padding-top: 12px;
+     border-radius: 20px;
+     border: 1px solid #FCB69C;
+     margin-bottom: 10px;
+}
+.result-section {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 0px 15px;
+}
+.order-id {
+     width: 100%;
+ }
+ .order-id h5 {
+     font-size: 18px;
+     font-weight: 600;
+ }
+ .card-amount {
+     width: 100%;
+ }
+
+.order-id h4 {
+     font-size: 20px;
+     font-weight: 700;
+}
+
+.order-id h6 {
+     color: #7D7D7D;
+     font-size: 12px;
+     font-weight: 400;
+}
+
+.card-amount h5 {
+     text-align: left;
+     font-size: 20px;
+     font-weight: 700;
+}
+
+.card-amount h6 {
+     color: #7D7D7D;
+     font-size: 12px;
+     font-weight: 400;
+}
+
+.request-section h6 {
+     color: #7D7D7D;
+     font-size: 14px;
+     font-weight: 400;
+}
+
+.request-section h4 {
+     font-size: 16px;
+     font-weight: 600;
+}
+
+.mode-section h4 {
+     font-size: 16px;
+     font-weight: 600;
+}
+
+.mode-section h5 {
+     color: #7D7D7D;
+     font-size: 10px;
+     font-weight: 400;
+}
+
+.card-grid {
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+}
+.status-section {
+     border-radius: 0px 0px 20px 20px;
+     padding: 15px 15px;
+     color: #fff;
+     display: flex;
+     align-items: center;
+     justify-content: start;
+}
+.status-section svg {
+     margin-right: 15px;
+}
+.status-section h5 {
+     color: #fff;
+     font-weight: 600;
+     font-size: 16px;
+     margin: 0;
+}

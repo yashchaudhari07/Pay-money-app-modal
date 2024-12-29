@@ -1,0 +1,20 @@
+.breadcumbs-main{
+    position: relative;
+    text-align: center;
+    padding: 0px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+}
+.breadcumbs-main img {
+    position: absolute;
+    left: 0px;
+    width: 50px;
+    height: 50px;
+}
+.breadcumbs-main h5{
+    margin: 0px;
+    color: #322D2D;
+    font-size: 22px;
+}

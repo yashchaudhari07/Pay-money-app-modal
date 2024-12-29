@@ -1,0 +1,51 @@
+.Main-section {
+    padding: 20px 0px;
+}
+.Amount-container{
+    background-color: #f8f8f8;;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    padding-top: 10px;
+}
+.Amount-container h5 {
+    color: #322D2D;
+    font-weight: 500;
+    font: caption;
+    padding-left:20px;
+}
+.Amount-container h4 {
+    font-size: 20px;
+    font-weight: 700;
+    padding-right: 20px;
+}
+.payment-method-box {
+    background-color: #f8f8f8;
+    padding: 15px 15px;
+    border-radius: 22px;
+    margin-bottom: 12px;
+    height: 200px;
+}
+.main-container img {
+    width: 80%;
+}
+.main-container {
+    background-color: #fff;
+    height: 100px;
+    padding-top: 25px;
+    width: 100%;
+}
+.text-section h5 {
+    margin: 0px;
+    text-align: center;
+    padding-top: 15px;
+    font: revert;
+}
+.text-section h6 {
+    margin: 0px;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 14px;
+}

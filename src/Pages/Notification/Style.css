@@ -1,0 +1,50 @@
+.today-section h4{
+    font-size: 16px;
+    font-weight: 600;
+    padding-top: 18px;
+    margin: 5px 10px;
+}
+.notification-container {
+    display: flex;
+    padding-left: 10px;
+}
+.notification-grid {
+    padding-left: 17px;
+}
+.notification-grid h5 {
+    color: #322D2D;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.notification-grid h6 {
+    color: #7D7D7D;
+    font-size: 14px;
+    font-weight: 400;
+    padding-top: 4px;
+}
+
+.green-section {
+    display: flex;
+    padding-left: 10px;
+    padding-top: 20px;
+}
+
+.yesterday-section {
+    padding-top: 30px;
+}
+.yesterday-section h4 {
+    color: #322D2D;
+    font-size: 20px;
+    font-weight: 600;
+}
+.Logo-grid{
+    display: flex;
+    padding-left: 10px;
+    padding-top: 20px;
+}
+.error-grid{
+    display: flex;
+    padding-left: 10px;
+    padding-top: 20px;
+}
