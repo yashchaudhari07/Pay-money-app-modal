@@ -18,7 +18,7 @@ export const OTP = () => {
 
   const handleDone = () => {
     if(OTP){
-      if (OTP === '0024') {
+      if (OTP === '1234') {
         setOtpIsVerified(true);
         setIsOpenModal(true);
       }
