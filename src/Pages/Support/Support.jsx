@@ -53,10 +53,17 @@ export const Support = () => {
                         {
                             chatList.map((item) => {
                                 return (
+<<<<<<< HEAD
                                     <div style={item.type === 'sender' ? { display: 'flex', justifyContent: "left"} : { display: 'flex', justifyContent: "right" }}>
                                         <div className='chat-container' style={item.type === 'sender' ? { borderBottomLeftRadius: '0px', background: '#F85010', } : { borderBottomRightRadius: '0px',background:'#FEEDE6' }}>
                                             <div className='support-section' >
                                                 <span  style={item.type === 'sender' ?  {color:'#fff'} : {color:"#322D2D"}}>{item.message}</span>
+=======
+                                    <div style={item.type == 'sender' ? { display: 'flex', justifyContent: "left"} : { display: 'flex', justifyContent: "right" }}>
+                                        <div className='chat-container' style={item.type == 'sender' ? { borderBottomLeftRadius: '0px', background: '#F85010', } : { borderBottomRightRadius: '0px',background:'#FEEDE6' }}>
+                                            <div className='support-section' >
+                                                <span  style={item.type == 'sender' ?  {color:'#fff'} : {color:"#322D2D"}}>{item.message}</span>
+>>>>>>> 5c32ecae3834b6aed6f9aad7e3d406103df3755e
                                             </div>
                                         </div>
                                     </div>

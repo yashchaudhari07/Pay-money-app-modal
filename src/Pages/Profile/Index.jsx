@@ -19,7 +19,11 @@ export const Profile = () => {
                 </div>
                 <div className='name-section'>
                     <h4>Yash Chaudhari</h4>
+<<<<<<< HEAD
                     <h6>98908277@gamapay.com</h6>
+=======
+                    <h6>yc98908277@gmail.com</h6>
+>>>>>>> 5c32ecae3834b6aed6f9aad7e3d406103df3755e
                 </div>
                 <div className='bank-section'>
                     <h5>Bank Details</h5>

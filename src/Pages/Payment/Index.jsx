@@ -103,11 +103,19 @@ const handlePayNow= () => {
             data.map((item, index) => {
               return (
                 <div className=' col-6'  >
+<<<<<<< HEAD
                   <div className='payment-method-box' style={isActiveIndex === index ? { background: '#F85010' } : { background: '#fafafa' }} onClick={() => { handleClickText(index) }}>
                     <div className='main-container'>
                       <img src={item.path} />
                     </div>
                     <div className='text-section' style={isActiveIndex === index ? { color: '#fff' } : { color: '#322D2D' }}>
+=======
+                  <div className='payment-method-box' style={isActiveIndex == index ? { background: '#F85010' } : { background: '#fafafa' }} onClick={() => { handleClickText(index) }}>
+                    <div className='main-container'>
+                      <img src={item.path} />
+                    </div>
+                    <div className='text-section' style={isActiveIndex == index ? { color: '#fff' } : { color: '#322D2D' }}>
+>>>>>>> 5c32ecae3834b6aed6f9aad7e3d406103df3755e
                       <h5>{item.name}</h5>
                       <h6>{item.time}</h6>
                     </div>

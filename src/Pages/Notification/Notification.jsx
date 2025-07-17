@@ -49,13 +49,21 @@ export const Notification = () => {
                             return (
                                 <div className='Section-box'>
                                     {
+<<<<<<< HEAD
                                         index === 0 && item.date === '29/1/24' &&
+=======
+                                        index == 0 && item.date === '29/1/24' &&
+>>>>>>> 5c32ecae3834b6aed6f9aad7e3d406103df3755e
                                         <div className='today-section'>
                                             <h4>Today</h4>
                                         </div>
                                     }
                                     {
+<<<<<<< HEAD
                                         index === 2 && item.date !== '29/1/24' &&
+=======
+                                        index == 2 && item.date !== '29/1/24' &&
+>>>>>>> 5c32ecae3834b6aed6f9aad7e3d406103df3755e
                                         <div className='today-section'>
                                             <h4>Yesterday</h4>
                                         </div>

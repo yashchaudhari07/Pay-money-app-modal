@@ -71,8 +71,13 @@ export const Amount = () => {
                   data.map((item, index) => {
                      return (
                         <div className='col-4 '>
+<<<<<<< HEAD
                            <div className='amount-box' style={isActiveIndex ===index ? { background: '#F85010' } : { background: '#fafafa' }} onClick={() => { handleClickAmount(item.amount, index) }}>
                               <h5 style={isActiveIndex ===index ? { color: '#fff' } : { color: '#322D2D' }}>₹{item.amount?.toLocaleString()}</h5>
+=======
+                           <div className='amount-box' style={isActiveIndex == index ? { background: '#F85010' } : { background: '#fafafa' }} onClick={() => { handleClickAmount(item.amount, index) }}>
+                              <h5 style={isActiveIndex == index ? { color: '#fff' } : { color: '#322D2D' }}>₹{item.amount?.toLocaleString()}</h5>
+>>>>>>> 5c32ecae3834b6aed6f9aad7e3d406103df3755e
                            </div>
                         </div>
                      )

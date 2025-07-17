@@ -17,8 +17,10 @@ export const OTP = () => {
 
 
   const handleDone = () => {
-    if(OTP){
+    if (OTP) {
+
       if (OTP === '1234') {
+
         setOtpIsVerified(true);
         setIsOpenModal(true);
       }
@@ -26,19 +28,19 @@ export const OTP = () => {
         setOtpIsVerified(false);
         setIsOpenModal(true);
       }
-    }else{
+    } else {
       setIsOpenModal(false);
       alert("OTP Is Required")
     }
-   
   }
-  const handleCloseModal = () =>{
+  }
+  const handleCloseModal = () => {
     setIsOpenModal(false);
   }
-  
+
   return (
     <>
-      <div className='pageContainer' style={{height:'95vh'}}>
+      <div className='pageContainer' style={{ height: '95vh' }}>
         <div className='container'>
           <div className='head-container'>
             <img src={ArrowImg} />
@@ -75,7 +77,7 @@ export const OTP = () => {
                 handleClose={handleCloseModal}
                 path='/home'
               />
-              
+
               :
               <Models.FailedModel
                 title='OTP Is Not Verified'

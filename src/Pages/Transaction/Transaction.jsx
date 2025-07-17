@@ -38,10 +38,17 @@ export const Transaction = () => {
 
     function handleFilter(value) {
         setFilterBy(value)
+<<<<<<< HEAD
         if (value === "All") {
             setTxnData(data);
         } else {
             const result = data.filter((item) => item.status === value);
+=======
+        if (value == "All") {
+            setTxnData(data);
+        } else {
+            const result = data.filter((item) => item.status == value);
+>>>>>>> 5c32ecae3834b6aed6f9aad7e3d406103df3755e
             setTxnData(result);
         }
 

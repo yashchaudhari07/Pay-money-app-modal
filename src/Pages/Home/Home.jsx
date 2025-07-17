@@ -12,21 +12,33 @@ const data = [
     {
         id: 1,
         name: 'Credited',
+<<<<<<< HEAD
         date: '24 Dec 2023',
+=======
+        date: '24 March 2024',
+>>>>>>> 5c32ecae3834b6aed6f9aad7e3d406103df3755e
         amount: 30000,
         Svg: Icon1,
     },
     {
         id: 2,
         name: 'UPI',
+<<<<<<< HEAD
         date: '25 Jan 2024',
+=======
+        date: '25 june 2024',
+>>>>>>> 5c32ecae3834b6aed6f9aad7e3d406103df3755e
         amount: 40000,
         Svg: Icon2,
     },
     {
         id: 3,
         name: 'Deposited',
+<<<<<<< HEAD
         date: '26 Feb 2024',
+=======
+        date: '26 Sep 2024',
+>>>>>>> 5c32ecae3834b6aed6f9aad7e3d406103df3755e
         amount: 50000,
         Svg: Icon3,
     }
@@ -43,7 +55,11 @@ export const Home = () => {
                     <div className='side-section'>
                         <div className='Content'>
                             <h5>Welcome</h5>
+<<<<<<< HEAD
                             <h4>YASH.C</h4>
+=======
+                            <h4>YASH CHAUDHARI</h4>
+>>>>>>> 5c32ecae3834b6aed6f9aad7e3d406103df3755e
                         </div>
                         <div className='image-container'>
                             <Link to='/profile'>

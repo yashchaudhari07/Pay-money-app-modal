@@ -27,7 +27,11 @@ function App() {
   return (
     <div className="App">
       <BrowserRouter>
+<<<<<<< HEAD
         {/* <Header /> */}
+=======
+        <Header />
+>>>>>>> 5c32ecae3834b6aed6f9aad7e3d406103df3755e
         <Routes>
           <Route path="/" element={isOpenSplash ? <Splash /> : <LoginPage />} />
           <Route path="otp" element={<OTP/>}/>
