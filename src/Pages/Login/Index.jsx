@@ -13,16 +13,16 @@ export const LoginPage = () => {
 
   const handleChangeMobileNumber = (e) => {
     setMobileNumber(e.target.value)
-<<<<<<< HEAD
+
     if (e.target.value.length === 10) {
-=======
+
     if (e.target.value.length == 10) {
->>>>>>> 5c32ecae3834b6aed6f9aad7e3d406103df3755e
+ 
       setMobileNumberValid(true)
     } else {
       setMobileNumberValid(false)
     }
-  }
+  }}
 
   const handleLogin = () => {
     if (MobileNumber.length > 10) {

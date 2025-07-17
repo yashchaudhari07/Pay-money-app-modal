@@ -72,19 +72,19 @@ const data = [
 ]
 
 export const Payment = () => {
-  let {state} = useLocation();  
+  let { state } = useLocation();
   console.log(state)
   const [isActiveIndex, setIsActiveIndex] = useState("");
   const [isOpenModal, setIsOpenModal] = useState(false);
   function handleClickText(val) {
     setIsActiveIndex(val);
- }
- const handleCloseModal = () =>{
-  setIsOpenModal(false);
-}
-const handlePayNow= () => {
-  setIsOpenModal(true);
-}
+  }
+  const handleCloseModal = () => {
+    setIsOpenModal(false);
+  }
+  const handlePayNow = () => {
+    setIsOpenModal(true);
+  }
   return (
     <div>
       <Breadcrumb
@@ -103,49 +103,54 @@ const handlePayNow= () => {
             data.map((item, index) => {
               return (
                 <div className=' col-6'  >
-<<<<<<< HEAD
+
                   <div className='payment-method-box' style={isActiveIndex === index ? { background: '#F85010' } : { background: '#fafafa' }} onClick={() => { handleClickText(index) }}>
                     <div className='main-container'>
                       <img src={item.path} />
                     </div>
                     <div className='text-section' style={isActiveIndex === index ? { color: '#fff' } : { color: '#322D2D' }}>
-=======
-                  <div className='payment-method-box' style={isActiveIndex == index ? { background: '#F85010' } : { background: '#fafafa' }} onClick={() => { handleClickText(index) }}>
-                    <div className='main-container'>
-                      <img src={item.path} />
+
+                      <div className='payment-method-box' style={isActiveIndex == index ? { background: '#F85010' } : { background: '#fafafa' }} onClick={() => { handleClickText(index) }}>
+                        <div className='main-container'>
+                          <img src={item.path} />
+                        </div>
+                        <div className='text-section' style={isActiveIndex == index ? { color: '#fff' } : { color: '#322D2D' }}>
+
+                          <h5>{item.name}</h5>
+                          <h6>{item.time}</h6>
+                        </div>
+                      </div>
                     </div>
-                    <div className='text-section' style={isActiveIndex == index ? { color: '#fff' } : { color: '#322D2D' }}>
->>>>>>> 5c32ecae3834b6aed6f9aad7e3d406103df3755e
-                      <h5>{item.name}</h5>
-                      <h6>{item.time}</h6>
+                    </div>
+                    </div>
+                   
+                    )
+            })
+          }
+                  </div>
+                  <div className='bottomAction' style={{ position: 'relative' }}>
+                    <div className='bottomActionInner'>
+                      <Buttons.PrimaryButton
+                        value="Pay Now" onClick={handlePayNow}
+                        style={{ width: '100%' }}
+                      />
                     </div>
                   </div>
                 </div>
-              )
-            })
-          }
-        </div>
-        <div className='bottomAction' style={{position:'relative'}}>
-          <div className='bottomActionInner'>
-            <Buttons.PrimaryButton
-              value="Pay Now" onClick={handlePayNow}
-              style={{ width: '100%' }}
-            />
-          </div>
-        </div>
-      </div>
-      {isOpenModal &&
-        <>
-          {
-              <Models.SuccessModel
-                title='Successfull!'
-                description='Add fund successfully completed, you can check now.'
-                handleClose={handleCloseModal}
-                path='/home'
-              />
-          }
-          </>
-        }
+      {
+                isOpenModal &&
+                  <>
+                    {
+                      <Models.SuccessModel
+                        title='Successfull!'
+                        description='Add fund successfully completed, you can check now.'
+                        handleClose={handleCloseModal}
+                        path='/home'
+                      />
+                    }
+                  </>
+              }
     </div>
-  )
+
+        )
 }

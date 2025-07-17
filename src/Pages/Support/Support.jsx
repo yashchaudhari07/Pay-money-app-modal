@@ -44,7 +44,7 @@ export const Support = () => {
             <div className='pageContainer'>
                 <Appbar
                     title='Supports'
-                    path ='/profile' />
+                    path='/profile' />
                 <div className='chat-main'>
                     <div className='date-section'>
                         <h6>Today, 10:23 am</h6>
@@ -53,20 +53,22 @@ export const Support = () => {
                         {
                             chatList.map((item) => {
                                 return (
-<<<<<<< HEAD
-                                    <div style={item.type === 'sender' ? { display: 'flex', justifyContent: "left"} : { display: 'flex', justifyContent: "right" }}>
-                                        <div className='chat-container' style={item.type === 'sender' ? { borderBottomLeftRadius: '0px', background: '#F85010', } : { borderBottomRightRadius: '0px',background:'#FEEDE6' }}>
-                                            <div className='support-section' >
-                                                <span  style={item.type === 'sender' ?  {color:'#fff'} : {color:"#322D2D"}}>{item.message}</span>
-=======
-                                    <div style={item.type == 'sender' ? { display: 'flex', justifyContent: "left"} : { display: 'flex', justifyContent: "right" }}>
-                                        <div className='chat-container' style={item.type == 'sender' ? { borderBottomLeftRadius: '0px', background: '#F85010', } : { borderBottomRightRadius: '0px',background:'#FEEDE6' }}>
-                                            <div className='support-section' >
-                                                <span  style={item.type == 'sender' ?  {color:'#fff'} : {color:"#322D2D"}}>{item.message}</span>
->>>>>>> 5c32ecae3834b6aed6f9aad7e3d406103df3755e
+                                    <div>
+                                        <div style={item.type === 'sender' ? { display: 'flex', justifyContent: "left" } : { display: 'flex', justifyContent: "right" }}>
+                                            <div className='chat-container' style={item.type === 'sender' ? { borderBottomLeftRadius: '0px', background: '#F85010', } : { borderBottomRightRadius: '0px', background: '#FEEDE6' }}>
+                                                <div className='support-section' >
+                                                    <span style={item.type === 'sender' ? { color: '#fff' } : { color: "#322D2D" }}>{item.message}</span>
+                                                </div>
                                             </div>
                                         </div>
-                                    </div>
+                                        <div style={item.type == 'sender' ? { display: 'flex', justifyContent: "left" } : { display: 'flex', justifyContent: "right" }}>
+                                            <div className='chat-container' style={item.type == 'sender' ? { borderBottomLeftRadius: '0px', background: '#F85010', } : { borderBottomRightRadius: '0px', background: '#FEEDE6' }}>
+                                                <div className='support-section' >
+                                                    <span style={item.type == 'sender' ? { color: '#fff' } : { color: "#322D2D" }}>{item.message}</span>
+
+                                                </div>
+                                            </div>
+                                        </div></div>
                                 )
                             })
                         }

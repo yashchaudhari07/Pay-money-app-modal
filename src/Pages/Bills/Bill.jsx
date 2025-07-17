@@ -1,8 +1,5 @@
-<<<<<<< HEAD
-import React from 'react';
-=======
 import React from 'react'
->>>>>>> 5c32ecae3834b6aed6f9aad7e3d406103df3755e
+ 
 import Appbar from '../../Components/Appbar/index';
 import { Navbar } from '../../Components/Navbar';
 import './Style.css';
@@ -50,16 +47,16 @@ export const Bill = () => {
   return (
     <div>
       <div className='pageContainer'>
-<<<<<<< HEAD
+
        <Appbar
         title='Utility Bills'
           path='/profile'
        />
-=======
+
         <Appbar
           title='Utility Bills'
           path='/profile' />
->>>>>>> 5c32ecae3834b6aed6f9aad7e3d406103df3755e
+ 
         <div className='row mt-5'>
           {
             data.map((item) => {
