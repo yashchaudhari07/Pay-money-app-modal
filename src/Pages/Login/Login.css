@@ -1,0 +1,81 @@
+.main-container{
+    background-color: #fff;
+    position: relative;
+}
+.main-container .container {
+    background: var(--White, #FFF);
+    align-items: center;
+    justify-content: center;
+    display: flex;  
+    padding-top: 40px;  
+}
+.group-section h4 {
+    color: var(--Font, #322D2D);
+    text-align: center;
+    align-items: center;
+    padding-top: 30px;
+
+    /* Title 24 Bold */
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+    /* 31.2px */
+}
+p {
+    color: var(--Font-2, #7D7D7D);
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    
+}
+label {
+
+    color: var(--Font, #322D2D);
+    font-family: Cerebri Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 160%;
+    padding-left: 20px;
+   
+}
+.mobilefield {
+    border-radius: 16px;
+    border: 1px solid var(--Border, #E7E4E4);
+    background: var(--White, #FFF);
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+}
+.mobilefield input {
+    height: 35px;
+    padding: 0px 30px;
+    width: 100%;
+    font-size: 16px;
+    border: none;
+}
+.mobilefield input number{ 
+    color: var(--Font-2, #7D7D7D);
+    font-style: normal;
+    font-weight:lighter;
+    line-height: 160%; 
+}
+.mobilefield input:focus{
+    border: none;
+    box-shadow: none;
+}
+.mobilefield input:focus-visible{
+    border: none;
+    box-shadow: none;
+    outline: none;
+}
+.mobilefield img {
+    border-radius: 37px;
+    background: lightgray 50% / cover no-repeat;
+}
+
+  
+

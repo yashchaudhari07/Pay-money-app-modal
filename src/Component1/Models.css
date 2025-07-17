@@ -1,0 +1,42 @@
+.modalMain{
+    position: fixed;
+    left: 0;    
+    top: 0;
+    height: 100vh;
+    background: #02020263;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 30px;
+}
+.modalCard{
+    background: #fff;
+    padding: 20px 20px;
+    border-radius: 45px;
+}
+.modalContent p{
+    font-size: 13px;
+    color:#7D7D7D;
+    text-align: center;
+}
+.modalContent h5{
+    font-size: 20px;
+    color: #322D2D;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 20px;
+}
+.Section img{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+
+.Title h2 {
+    color: #322D2D;
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+}
